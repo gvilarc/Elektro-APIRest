@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx ts-node-dev --transpile-only --no-notify server.ts"
+    "start": "npx ts-node-dev --transpile-only --no-notify src/server.js"
   },
   "prisma":{
     "schema":"src/models/schema.prisma"
